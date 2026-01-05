@@ -5,6 +5,8 @@ export interface Product {
   sizes: string[];
   category: "spices" | "oils";
   available: boolean;
+  badge?: string;
+  image?: string;
 }
 
 export const products: Product[] = [
@@ -17,6 +19,7 @@ export const products: Product[] = [
     sizes: ["50g", "250g"],
     category: "spices",
     available: true,
+    badge: "Natural",
   },
   {
     id: "red-chilli-powder",
@@ -26,6 +29,7 @@ export const products: Product[] = [
     sizes: ["50g", "250g"],
     category: "spices",
     available: true,
+    badge: "Spicy",
   },
   {
     id: "coriander-powder",
@@ -35,6 +39,7 @@ export const products: Product[] = [
     sizes: ["50g", "250g"],
     category: "spices",
     available: true,
+    badge: "Natural",
   },
   {
     id: "cumin-powder",
@@ -44,6 +49,7 @@ export const products: Product[] = [
     sizes: ["50g", "250g"],
     category: "spices",
     available: true,
+    badge: "Natural",
   },
 
   // Wood Pressed Oils
@@ -55,6 +61,7 @@ export const products: Product[] = [
     sizes: ["250ml", "500ml", "1L"],
     category: "oils",
     available: true,
+    badge: "Cold Pressed",
   },
   {
     id: "sunflower-oil",
@@ -64,6 +71,7 @@ export const products: Product[] = [
     sizes: ["250ml", "500ml", "1L"],
     category: "oils",
     available: true,
+    badge: "Cold Pressed",
   },
   {
     id: "coconut-oil",
@@ -73,6 +81,7 @@ export const products: Product[] = [
     sizes: ["250ml", "500ml", "1L"],
     category: "oils",
     available: true,
+    badge: "Vegan",
   },
 ];
 
