@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Droplet, Sprout, Leaf, Heart } from "lucide-react";
+import { Droplet, Heart, Leaf, Shield } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -96,8 +96,7 @@ export default function AboutPage() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6"
             >
-              The Story Behind the{" "}
-              <span className="text-primary">Purity</span>
+              The Story Behind the <span className="text-primary">Purity</span>
             </motion.h1>
 
             <motion.p
@@ -128,7 +127,8 @@ export default function AboutPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-center">
-              The Mission: <span className="text-primary">Returning to Roots</span>
+              The Mission:{" "}
+              <span className="text-primary">Returning to Roots</span>
             </h2>
 
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
@@ -137,8 +137,9 @@ export default function AboutPage() {
                   The Problem
                 </h3>
                 <p>
-                  Most modern food is a product of industrial efficiency—utilizing
-                  high heat, chemical solvents, and synthetic preservatives.
+                  Most modern food is a product of industrial
+                  efficiency—utilizing high heat, chemical solvents, and
+                  synthetic preservatives.
                 </p>
               </div>
 
@@ -171,8 +172,8 @@ export default function AboutPage() {
               The <span className="text-primary">Purity Pact</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our unwavering commitment to delivering the purest, most nutritious
-              food products to your family.
+              Our unwavering commitment to delivering the purest, most
+              nutritious food products to your family.
             </p>
           </motion.div>
 
@@ -184,7 +185,7 @@ export default function AboutPage() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12"
           >
             {purityPoints.map((point, index) => (
-              // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+              // biome-ignore lint/suspicious/noArrayIndexKey: static array
               <motion.div key={index} variants={itemVariants}>
                 <Card className="group h-full border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                   <CardHeader className="text-center">
@@ -218,7 +219,8 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-              The <span className="text-primary">"Seed to Supper"</span> Narrative
+              The <span className="text-primary">"Seed to Supper"</span>{" "}
+              Narrative
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Our transparent journey from source to table, ensuring quality at
@@ -235,7 +237,7 @@ export default function AboutPage() {
               className="space-y-6"
             >
               {seedToSupperSteps.map((step, index) => (
-                // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+                // biome-ignore lint/suspicious/noArrayIndexKey: static array
                 <motion.div key={index} variants={itemVariants}>
                   <div className="bg-secondary/30 rounded-2xl p-8 hover:bg-secondary/50 transition-colors">
                     <div className="flex items-start gap-6">
@@ -270,18 +272,19 @@ export default function AboutPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Future Vision: <span className="text-primary">A Complete Pantry Partner</span>
+              Future Vision:{" "}
+              <span className="text-primary">A Complete Pantry Partner</span>
             </h2>
 
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p className="text-left bg-background/80 backdrop-blur rounded-2xl p-8 border border-border/50">
-                While we started with essential oils and spices, our roadmap includes
-                a full range of chemical-free staples.
+                While we started with essential oils and spices, our roadmap
+                includes a full range of chemical-free staples.
               </p>
 
               <p className="text-left bg-background/80 backdrop-blur rounded-2xl p-8 border border-border/50">
-                We are expanding into traditional pickles, superfoods like Moringa,
-                and daily staples like Makhana and Chura.
+                We are expanding into traditional pickles, superfoods like
+                Moringa, and daily staples like Makhana and Chura.
               </p>
             </div>
 
@@ -293,9 +296,9 @@ export default function AboutPage() {
               className="mt-12 p-8 bg-secondary/50 rounded-2xl border border-primary/20"
             >
               <p className="text-base text-muted-foreground italic">
-                <strong className="text-foreground">Notice:</strong> This site is a
-                digital gallery of our manufacturing capabilities and product range,
-                not an e-commerce platform.
+                <strong className="text-foreground">Notice:</strong> This site
+                is a digital gallery of our manufacturing capabilities and
+                product range, not an e-commerce platform.
               </p>
             </motion.div>
           </motion.div>
