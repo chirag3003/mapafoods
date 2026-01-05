@@ -74,6 +74,7 @@ export function ProductCard({ product, index }: ProductCardProps) {
         {/* Add to List Button */}
         <button
           type="button"
+          aria-label={`Add ${product.name} to list`}
           className="w-full flex items-center justify-center gap-2 bg-foreground text-background py-3 rounded-lg font-medium hover:bg-foreground/90 transition-colors"
         >
           Add to List
