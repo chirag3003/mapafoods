@@ -40,7 +40,7 @@ export function Navbar() {
               About
             </Link>
             <Link
-              href="#process"
+              href="/process"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               Our Process
