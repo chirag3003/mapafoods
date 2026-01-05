@@ -181,6 +181,7 @@ export function PureSpicesSection() {
                 >
                   {[...Array(8)].map((_, i) => (
                     <motion.div
+                      // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
                       key={i}
                       animate={{
                         y: [0, -30, 0],

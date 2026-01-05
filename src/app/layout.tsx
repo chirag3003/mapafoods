@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cabin, Source_Sans_3 } from "next/font/google";
 import { Navbar } from "@/components/navbar";
 import { ScrollProgress } from "@/components/scroll-progress";
+import { Footer } from "@/components/footer";
 import "./globals.css";
 
 const cabin = Cabin({
@@ -32,6 +33,7 @@ export default function RootLayout({
         <ScrollProgress />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
