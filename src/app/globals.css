@@ -46,57 +46,57 @@
   --radius-4xl: calc(var(--radius) + 16px);
 }
 :root {
-    /* Main Canvas & Text */
-    --background: oklch(1 0 0); /* Pure White: Represents chemical-free purity and cleanliness */
-    --foreground: oklch(0.12 0.02 145); /* Forest Charcoal: High-contrast text color with a natural organic tint */
-    
-    /* Surfaces & Containers */
-    --card: oklch(1 0 0); /* Clean card backgrounds to maintain the "pure" brand aesthetic */
-    --card-foreground: oklch(0.12 0.02 145); /* Consistent text for product descriptions and details */
-    --popover: oklch(1 0 0); /* Used for menus and tooltips to keep the interface light and open */
-    --popover-foreground: oklch(0.12 0.02 145); /* Text color for popover elements */
+  /* Main Canvas & Text */
+  --background: oklch(1 0 0); /* Pure White: Represents chemical-free purity and cleanliness */
+  --foreground: oklch(0.12 0.02 145); /* Forest Charcoal: High-contrast text color with a natural organic tint */
 
-    /* Core Brand Colors */
-    --primary: oklch(0.47 0.15 145); /* Logo Forest Green: Represents nature, health, and the "Seed" */
-    --primary-foreground: oklch(0.985 0 0); /* Light text to ensure readability on dark green buttons */
+  /* Surfaces & Containers */
+  --card: oklch(1 0 0); /* Clean card backgrounds to maintain the "pure" brand aesthetic */
+  --card-foreground: oklch(0.12 0.02 145); /* Consistent text for product descriptions and details */
+  --popover: oklch(1 0 0); /* Used for menus and tooltips to keep the interface light and open */
+  --popover-foreground: oklch(0.12 0.02 145); /* Text color for popover elements */
 
-    /* Secondary Elements */
-    --secondary: oklch(0.96 0.02 145); /* Soft Sage: A subtle background for differentiating sections like "Our Process" */
-    --secondary-foreground: oklch(0.25 0.08 145); /* Deep Sage text for secondary headers */
+  /* Core Brand Colors */
+  --primary: oklch(0.47 0.15 145); /* Logo Forest Green: Represents nature, health, and the "Seed" */
+  --primary-foreground: oklch(0.985 0 0); /* Light text to ensure readability on dark green buttons */
 
-    /* Accent & Highlights */
-    --accent: oklch(0.55 0.20 40); /* Logo Terracotta Orange: Represents heat, the "Supper," and future roadmap items */
-    --accent-foreground: oklch(0.985 0 0); /* Light text for high-visibility orange badges or buttons */
+  /* Secondary Elements */
+  --secondary: oklch(0.96 0.02 145); /* Soft Sage: A subtle background for differentiating sections like "Our Process" */
+  --secondary-foreground: oklch(0.25 0.08 145); /* Deep Sage text for secondary headers */
 
-    /* UI State & Utility */
-    --muted: oklch(0.96 0.01 145); /* Low-priority background for secondary cards or footers */
-    --muted-foreground: oklch(0.45 0.02 145); /* Gray-green text for metadata like product sizes (e.g., 50g, 250g) */
-    --destructive: oklch(0.577 0.245 27.325); /* Standard error state, kept distinct from the brand terracotta */
-    --destructive-foreground: oklch(1 0 0); /* Text for error or critical alerts */
-    
-    /* Borders & Inputs */
-    --border: oklch(0.922 0.02 145); /* Soft border for product grid cards and separators */
-    --input: oklch(0.922 0.02 145); /* Subtle border for inquiry forms on the Contact page */
-    --ring: oklch(0.47 0.15 145); /* Focus ring matching the brand Forest Green */
+  /* Accent & Highlights */
+  --accent: oklch(0.55 0.2 40); /* Logo Terracotta Orange: Represents heat, the "Supper," and future roadmap items */
+  --accent-foreground: oklch(0.985 0 0); /* Light text for high-visibility orange badges or buttons */
 
-    /* Product Specific Visualization (Charts) */
-    --chart-1: oklch(0.47 0.15 145); /* Forest Green: Representative of pure Oils */
-    --chart-2: oklch(0.55 0.20 40);  /* Terracotta: Representative of Red Chilli/Pickles */
-    --chart-3: oklch(0.85 0.18 90);  /* Mustard Gold: Representative of Mustard Oil and Turmeric */
-    --chart-4: oklch(0.75 0.15 75);  /* Harvest Yellow: Representative of grains and staples */
-    --chart-5: oklch(0.35 0.05 45);  /* Deep Wood: Representative of the Wood Pressing (Lakdi Gani) process */
+  /* UI State & Utility */
+  --muted: oklch(0.96 0.01 145); /* Low-priority background for secondary cards or footers */
+  --muted-foreground: oklch(0.45 0.02 145); /* Gray-green text for metadata like product sizes (e.g., 50g, 250g) */
+  --destructive: oklch(0.577 0.245 27.325); /* Standard error state, kept distinct from the brand terracotta */
+  --destructive-foreground: oklch(1 0 0); /* Text for error or critical alerts */
 
-    --radius: 0.625rem; /* Rounded corners to give a friendly, organic, and modern feel */
+  /* Borders & Inputs */
+  --border: oklch(0.922 0.02 145); /* Soft border for product grid cards and separators */
+  --input: oklch(0.922 0.02 145); /* Subtle border for inquiry forms on the Contact page */
+  --ring: oklch(0.47 0.15 145); /* Focus ring matching the brand Forest Green */
 
-    /* Sidebar - High Contrast Brand Identity */
-    --sidebar: oklch(0.99 0.01 145); /* Nearly white sidebar to keep navigation clean and spacious */
-    --sidebar-foreground: oklch(0.145 0.02 145); /* Dark navigation text */
-    --sidebar-primary: oklch(0.47 0.15 145); /* Primary brand green for active sidebar links */
-    --sidebar-primary-foreground: oklch(0.985 0 0); /* Contrast text for active sidebar items */
-    --sidebar-accent: oklch(0.97 0.03 145); /* Subtle hover state for navigation */
-    --sidebar-accent-foreground: oklch(0.205 0.05 145); /* Text color for hovered sidebar items */
-    --sidebar-border: oklch(0.922 0.02 145); /* Separation border for navigation menus */
-    --sidebar-ring: oklch(0.47 0.15 145); /* Sidebar focus state */
+  /* Product Specific Visualization (Charts) */
+  --chart-1: oklch(0.47 0.15 145); /* Forest Green: Representative of pure Oils */
+  --chart-2: oklch(0.55 0.2 40); /* Terracotta: Representative of Red Chilli/Pickles */
+  --chart-3: oklch(0.85 0.18 90); /* Mustard Gold: Representative of Mustard Oil and Turmeric */
+  --chart-4: oklch(0.75 0.15 75); /* Harvest Yellow: Representative of grains and staples */
+  --chart-5: oklch(0.35 0.05 45); /* Deep Wood: Representative of the Wood Pressing (Lakdi Gani) process */
+
+  --radius: 0.625rem; /* Rounded corners to give a friendly, organic, and modern feel */
+
+  /* Sidebar - High Contrast Brand Identity */
+  --sidebar: oklch(0.99 0.01 145); /* Nearly white sidebar to keep navigation clean and spacious */
+  --sidebar-foreground: oklch(0.145 0.02 145); /* Dark navigation text */
+  --sidebar-primary: oklch(0.47 0.15 145); /* Primary brand green for active sidebar links */
+  --sidebar-primary-foreground: oklch(0.985 0 0); /* Contrast text for active sidebar items */
+  --sidebar-accent: oklch(0.97 0.03 145); /* Subtle hover state for navigation */
+  --sidebar-accent-foreground: oklch(0.205 0.05 145); /* Text color for hovered sidebar items */
+  --sidebar-border: oklch(0.922 0.02 145); /* Separation border for navigation menus */
+  --sidebar-ring: oklch(0.47 0.15 145); /* Sidebar focus state */
 }
 
 @layer base {

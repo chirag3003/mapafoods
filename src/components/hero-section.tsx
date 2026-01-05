@@ -23,10 +23,7 @@ export function HeroSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Column */}
-          <motion.div
-            style={{ y, opacity }}
-            className="space-y-8 max-w-2xl"
-          >
+          <motion.div style={{ y, opacity }} className="space-y-8 max-w-2xl">
             {/* Badge */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -74,7 +71,7 @@ export function HeroSection() {
               className="flex flex-col sm:flex-row gap-4"
             >
               <Link
-                href="#shop"
+                href="/shop"
                 className="inline-flex items-center justify-center rounded-lg bg-primary px-8 py-4 text-base font-semibold text-white shadow-lg transition-all hover:bg-primary/90 hover:scale-105 hover:shadow-xl"
               >
                 Explore Our Range

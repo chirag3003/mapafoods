@@ -28,7 +28,7 @@ export function Navbar() {
           {/* Navigation Links */}
           <nav className="hidden md:flex items-center gap-8">
             <Link
-              href="#shop"
+              href="/shop"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               Shop

@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col">
       <HeroSection />
       <CorePillarsSection />
-      
+
       {/* Placeholder for future sections */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4 text-center">
