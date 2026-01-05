@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ShoppingBag, Leaf } from "lucide-react";
+import { Leaf, ShoppingBag } from "lucide-react";
 import { CategorySection } from "@/components/category-section";
-import { products, productCategories } from "@/lib/products";
+import { productCategories, products } from "@/lib/products";
 
 export default function ShopPage() {
   const spiceProducts = products.filter((p) => p.category === "spices");
@@ -12,7 +12,7 @@ export default function ShopPage() {
   return (
     <main className="flex min-h-screen flex-col">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-linear-to-br from-background via-background to-secondary/20 py-16 md:py-24">
+      <section className="relative overflow-hidden bg-gradient-to-br from-background via-background to-secondary/20 py-16 md:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
