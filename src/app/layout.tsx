@@ -17,7 +17,8 @@ const sourceSans3 = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: "māpāfööd — From Seed to Supper",
-  description: "100% pure, chemical-free, and preservative-free foods. Traditional wood-pressed oils and hand-ground spices.",
+  description:
+    "100% pure, chemical-free, and preservative-free foods. Traditional wood-pressed oils and hand-ground spices.",
 };
 
 export default function RootLayout({

@@ -82,7 +82,7 @@ export function CorePillarsSection() {
         >
           {pillars.map((pillar, index) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-<motion.div key={index} variants={itemVariants}>
+            <motion.div key={index} variants={itemVariants}>
               <Card className="group h-full border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <CardHeader className="text-center">
                   <div className="mx-auto mb-4 h-16 w-16 rounded-2xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
