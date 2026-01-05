@@ -40,10 +40,10 @@ export function Navbar() {
               About
             </Link>
             <Link
-              href="#manufacturing"
+              href="#process"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              Manufacturing
+              Our Process
             </Link>
             {/* <Link
               href="#inquiry-list"
