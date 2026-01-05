@@ -93,7 +93,7 @@ export default function ProcessPage() {
   return (
     <main className="flex min-h-screen flex-col bg-background">
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] overflow-hidden bg-linear-to-br from-background via-secondary/20 to-background">
+      <section className="relative min-h-[60vh] overflow-hidden bg-gradient-to-br from-background via-secondary/20 to-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -268,7 +268,7 @@ export default function ProcessPage() {
               transition={{ duration: 0.6 }}
               className="relative"
             >
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-linear-to-br from-primary/10 to-accent/10 aspect-square">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary/10 to-accent/10 aspect-square">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <Flame className="h-32 w-32 text-primary/30" />
                 </div>
@@ -388,7 +388,7 @@ export default function ProcessPage() {
               transition={{ duration: 0.6 }}
               className="relative order-1 lg:order-2"
             >
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-linear-to-br from-primary/10 to-secondary/20 aspect-square">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary/10 to-secondary/20 aspect-square">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <Shield className="h-32 w-32 text-primary/30" />
                 </div>
