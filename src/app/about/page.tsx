@@ -75,7 +75,7 @@ export default function AboutPage() {
   return (
     <main className="flex min-h-screen flex-col bg-background">
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] overflow-hidden bg-linear-to-br from-background via-background to-secondary/20">
+      <section className="relative min-h-[60vh] overflow-hidden bg-gradient-to-br from-background via-background to-secondary/20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
           <div className="max-w-4xl mx-auto text-center">
             <motion.div
@@ -262,7 +262,7 @@ export default function AboutPage() {
       </section>
 
       {/* Future Vision Section */}
-      <section className="py-20 md:py-32 bg-linear-to-br from-primary/5 via-background to-accent/5">
+      <section className="py-20 md:py-32 bg-gradient-to-br from-primary/5 via-background to-accent/5">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
