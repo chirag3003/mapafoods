@@ -77,7 +77,7 @@ export function HeroSection() {
                 Explore Our Range
               </Link>
               <Link
-                href="#process"
+                href="/process"
                 className="inline-flex items-center justify-center rounded-lg border-2 border-foreground/10 bg-background px-8 py-4 text-base font-semibold text-foreground transition-all hover:bg-foreground/5 hover:scale-105"
               >
                 Our Process
