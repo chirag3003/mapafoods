@@ -45,12 +45,12 @@ export function Navbar() {
             >
               Manufacturing
             </Link>
-            <Link
+            {/* <Link
               href="#inquiry-list"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               Inquiry List
-            </Link>
+            </Link> */}
           </nav>
 
           {/* My List Button */}
