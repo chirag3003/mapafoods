@@ -8,10 +8,26 @@ import { useRef } from "react";
 import Link from "next/link";
 
 const spices = [
-  { name: "Turmeric Powder", hindi: "Haldi", color: "from-yellow-500 to-amber-600" },
-  { name: "Red Chilli Powder", hindi: "Lal Mirch", color: "from-red-500 to-red-700" },
-  { name: "Coriander Powder", hindi: "Dhaniya", color: "from-amber-700 to-yellow-800" },
-  { name: "Cumin Powder", hindi: "Jeera", color: "from-yellow-700 to-amber-900" },
+  {
+    name: "Turmeric Powder",
+    hindi: "Haldi",
+    color: "from-yellow-500 to-amber-600",
+  },
+  {
+    name: "Red Chilli Powder",
+    hindi: "Lal Mirch",
+    color: "from-red-500 to-red-700",
+  },
+  {
+    name: "Coriander Powder",
+    hindi: "Dhaniya",
+    color: "from-amber-700 to-yellow-800",
+  },
+  {
+    name: "Cumin Powder",
+    hindi: "Jeera",
+    color: "from-yellow-700 to-amber-900",
+  },
 ];
 
 export function PureSpicesSection() {
@@ -26,7 +42,10 @@ export function PureSpicesSection() {
   const particleY = useTransform(scrollYProgress, [0, 1], [0, -50]);
 
   return (
-    <section ref={ref} className="py-20 md:py-32 bg-secondary/20 overflow-hidden">
+    <section
+      ref={ref}
+      className="py-20 md:py-32 bg-secondary/20 overflow-hidden"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Content Column - Left on desktop */}
@@ -44,8 +63,7 @@ export function PureSpicesSection() {
               transition={{ delay: 0.2, duration: 0.6 }}
             >
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-                Authentic &{" "}
-                <span className="text-accent">Pure Masalas</span>
+                Authentic & <span className="text-accent">Pure Masalas</span>
               </h2>
             </motion.div>
 
@@ -81,14 +99,18 @@ export function PureSpicesSection() {
                   className="group relative overflow-hidden rounded-lg border border-border/50 bg-card p-4 hover:shadow-md transition-all hover:-translate-y-1"
                 >
                   <div className="flex items-center gap-3">
-                    <div className={`h-10 w-10 rounded-full bg-gradient-to-br ${spice.color} flex items-center justify-center shrink-0`}>
+                    <div
+                      className={`h-10 w-10 rounded-full bg-gradient-to-br ${spice.color} flex items-center justify-center shrink-0`}
+                    >
                       <Sparkles className="h-5 w-5 text-white" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <p className="font-medium text-foreground truncate">
                         {spice.name}
                       </p>
-                      <p className="text-sm text-muted-foreground">{spice.hindi}</p>
+                      <p className="text-sm text-muted-foreground">
+                        {spice.hindi}
+                      </p>
                     </div>
                   </div>
                   {/* Hover effect */}
@@ -150,25 +172,41 @@ export function PureSpicesSection() {
                     {/* Turmeric bowl */}
                     <motion.div
                       animate={{ rotate: [0, 2, 0] }}
-                      transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                      transition={{
+                        duration: 4,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                      }}
                       className="rounded-full bg-gradient-to-br from-yellow-400 to-amber-500 shadow-xl"
                     />
                     {/* Red Chilli bowl */}
                     <motion.div
                       animate={{ rotate: [0, -2, 0] }}
-                      transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+                      transition={{
+                        duration: 5,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                      }}
                       className="rounded-full bg-gradient-to-br from-red-500 to-red-700 shadow-xl"
                     />
                     {/* Coriander bowl */}
                     <motion.div
                       animate={{ rotate: [0, -2, 0] }}
-                      transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
+                      transition={{
+                        duration: 4.5,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                      }}
                       className="rounded-full bg-gradient-to-br from-amber-600 to-yellow-700 shadow-xl"
                     />
                     {/* Cumin bowl */}
                     <motion.div
                       animate={{ rotate: [0, 2, 0] }}
-                      transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
+                      transition={{
+                        duration: 5.5,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                      }}
                       className="rounded-full bg-gradient-to-br from-yellow-700 to-amber-900 shadow-xl"
                     />
                   </div>

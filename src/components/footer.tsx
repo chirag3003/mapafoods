@@ -33,7 +33,9 @@ export function Footer() {
               <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center transition-transform group-hover:scale-110">
                 <Leaf className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-bold text-foreground">māpāfööd</span>
+              <span className="text-2xl font-bold text-foreground">
+                māpāfööd
+              </span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-sm leading-relaxed">
               From Seed to Supper. Traditional wood-pressed oils and hand-ground
@@ -106,10 +108,16 @@ export function Footer() {
               &copy; {new Date().getFullYear()} māpāfööd. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
-              <Link href="#privacy" className="hover:text-primary transition-colors">
+              <Link
+                href="#privacy"
+                className="hover:text-primary transition-colors"
+              >
                 Privacy Policy
               </Link>
-              <Link href="#terms" className="hover:text-primary transition-colors">
+              <Link
+                href="#terms"
+                className="hover:text-primary transition-colors"
+              >
                 Terms of Service
               </Link>
             </div>

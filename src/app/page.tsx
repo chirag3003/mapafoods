@@ -10,7 +10,7 @@ export default function Home() {
       <CorePillarsSection />
       <WoodPressedOilsSection />
       <PureSpicesSection />
-      
+
       {/* Placeholder for future sections */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4 text-center">
